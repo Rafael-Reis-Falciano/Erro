@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "saudacao",
+     "patterns": ["Ola!!", "Como voce esta?", "Tem alguem ai?",
+                    "Oi","Oie", "Alo"],
+     "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.", 
+                    "Ola, como posso ajudar?"]
+    },
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau", 
+                  "Ate a proxima"],
+     "responses": ["Nos vemos!", "Tenha um otimo dia", "Tchau! Volte logo.",
+                   "Tenha um excelente dia"]            
+    },
+    {"tag": "comida",
+    "patterns": ["me diga uma receita", "qual é sua comida favorita?", "o que posso comer hoje?", "qual sua bebida favorita?"],
+    "responses": ["macarrão", "pão com manteiga", "chocolate",
+                  "sou um robô e não como", "água"]
+    },
+    {"tag": "piadas",
+    "patterns": ["me conte uma piada", "me faça rir", "diga algo engraçado"],
+    "responses": ["O que o pato disse para a pata? Vem Quá!", "Por que o menino estava falando ao telefone deitado? Para não cair a ligação.", "Qual é a fórmula da água benta? H Deus O!",
+                  "Por que o livro de matemática ficou triste? Porque tinha muitos problemas!", "Era uma vez um pintinho que se chama Relam. Toda vez que chovia, Relam piava!"]
+    },
+    {"tag": "curiosidades",
+     "patterns": ["me conte algo legal", "me conte uma curiosidade", "fale algo aleatório",
+                    "me conte um fato interessante"],
+     "responses": ["os golfinhos se chamam por nomes dependendo do assovio eles sabem quem está sendo chamado", "elefantes conseguem se reconhecer no espelho", 
+                    "Estima-se que a cada ano o monte Everest cresça 4 milímetros", "flamingos dormem de pé com um pé só", "A parte mais profunda do oceano chega a 11 mil metros"]
+    },
+    {"tag": "recordes",
+     "patterns": ["me fale um recorde", "me fale sobre um feito incrível"],
+     "responses": ["O recorde de voo de uma galinha é de 13 segundos", "Um grupo de 500 pessoas vestidas apenas com roubas de banho decidiram esquiar em Sheregesh na Rússia em abril de 2013 entrando para o Guinness como o maior “desfile” de pessoas esquiando de biquíni do mundo", 
+                    "Har Parkash também conhecido como Guinness Rishi é o recordista mundial em quebrar recordes! O indiano tem 22 recordes registrado no Guinness Book sendo que um deles é o de ter 69 bandeiras tatuadas pelo corpo"]
+    }
+  ]
+}
+
+
